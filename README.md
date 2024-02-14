@@ -8,11 +8,15 @@ If you use this code in your work, please cite it as follows:
 ## Bibtex
 
 ```
-@article{lippi2021enabling,
-  title={Enabling Visual Action Planning for Object Manipulation through Latent Space Roadmap},
-  author={Lippi, Martina and Poklukar, Petra and Welle, Michael C and Varava, Anastasiia and Yin, Hang and Marino, Alessandro and Kragic, Danica},
-  journal={arXiv preprint arXiv:2103.02554},
-  year={2021}
+@article{lippi2022enabling,
+  title={Enabling visual action planning for object manipulation through latent space roadmap},
+  author={Lippi, Martina and Poklukar, Petra and Welle, Michael C and Varava, Anastasia and Yin, Hang and Marino, Alessandro and Kragic, Danica},
+  journal={IEEE Transactions on Robotics},
+  volume={39},
+  number={1},
+  pages={57--75},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
@@ -28,8 +32,7 @@ pip install -r requirements.txt
 download datasets:
 ```
 cd datasets
-chmod +x get_datasets.sh
-./get_datasets.sh
+python get_datasets.py
 cd ..
 ```
 
